@@ -1,0 +1,97 @@
+.container-post {
+  background-color: rgba(90, 197, 240, 0.123);
+  border: 1px solid rgb(90, 197, 240);
+  display: grid;
+  grid-template-columns: 50px 1fr 140px;
+  color: rgb(59, 59, 59);
+  border-radius: 10px;
+  padding: 5px 20px;
+  margin-bottom: 50px;
+}
+
+.container-vote {
+  align-self: center;
+}
+.container-content {
+  padding-left: 10px;
+}
+
+.container-content-detail {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.container-content-category,
+.container-content-author {
+  background-color: rgba(241, 244, 245, 0.61);
+  border: 1px solid rgba(168, 221, 238, 0.932);
+  border-radius: 10px;
+  margin: 0 10px;
+  color: rgb(37, 78, 94);
+  margin-bottom: 20px;
+}
+
+.container-edit {
+  justify-self: end;
+  align-self: center;
+}
+
+.container-edit button {
+  height: 35px;
+  padding: 0 10px;
+  color: white;
+  border-radius: 5px;
+  margin-bottom: 5px;
+  outline: none;
+  font-weight: bold;
+  width: 60px;
+  text-align: center;
+  margin-left: 6px;
+}
+
+.edit {
+  background-color: rgba(90, 240, 157, 0.664);
+  border: none;
+}
+
+.delete {
+  background-color: rgba(240, 90, 90, 0.664);
+  border: none;
+}
+
+.plus,
+.minus {
+  height: 35px;
+  color: white;
+  outline: none;
+  font-weight: bold;
+  width: 30px;
+  text-align: center;
+  margin-left: 6px;
+}
+
+.plus {
+  background-color: rgb(90, 240, 157);
+  border-top-right-radius: 5px;
+  border-top-left-radius: 5px;
+  border: none;
+}
+
+.minus {
+  background-color: rgb(240, 90, 90);
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
+  border: none;
+}
+
+.container-vote {
+  margin-right: 5px;
+}
+
+.container-vote p {
+  color: rgb(37, 78, 94);
+  text-align: center;
+}

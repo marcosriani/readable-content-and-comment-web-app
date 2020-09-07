@@ -1,0 +1,69 @@
+.container-home {
+  background-color: rgba(90, 197, 240, 0.041);
+  padding: 0 30px;
+  margin: 0 20px;
+  border-radius: 10px;
+}
+
+.container-home h1 {
+  color: rgb(37, 78, 94);
+  font-size: 40px;
+}
+
+.secondary-menu {
+  background-color: rgba(36, 47, 51, 0.048);
+  padding: 5px 20px;
+  margin-bottom: 50px;
+  border-radius: 10px;
+}
+
+.all-categories {
+  display: grid;
+  grid-template-columns: 1fr 200px;
+  color: rgb(59, 59, 59);
+}
+
+.all-categories-btn {
+  justify-self: end;
+  align-self: center;
+}
+
+.all-categories-btn button {
+  border: 1px solid rgb(90, 197, 240);
+  background-color: rgba(90, 197, 240, 0.685);
+}
+
+.all-categories-btn button,
+.explore-btn {
+  height: 35px;
+  padding: 0 10px;
+  color: white;
+  border-radius: 5px;
+  margin-bottom: 5px;
+  outline: none;
+  font-weight: bold;
+}
+
+.all-categories-btn button:hover,
+.explore-btn:hover {
+  border: 1px solid rgb(161, 215, 236);
+  cursor: pointer;
+}
+
+.explore-btn {
+  border: 1px solid rgb(83, 146, 204);
+  background-color: rgb(83, 146, 204);
+}
+
+.explore {
+  display: grid;
+  grid-template-columns: 1fr 130px;
+  align-items: center;
+  justify-items: center;
+}
+
+.explore p {
+  text-align: center;
+  font-size: large;
+  color: rgb(59, 59, 59);
+}
